@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar, Form, FormControl, Button, Badge } from 'react-bootstrap';
 import { FiSearch } from 'react-icons/fi';
 import { FaShoppingCart } from 'react-icons/fa';
-import Logo from "../assets/img/'ChatGPT Image Jul 19, 2025, 05_05_45 PM.png'"
+import Logo from '../assets/img/Logo1.png'
 import '../assets/css/home/header.css';
 
 export default function Header() {
