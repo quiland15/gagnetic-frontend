@@ -5,7 +5,7 @@ import '../assets/css/home/header.css';
 
 export default function Header() {
   return (
-    <Navbar expand="lg" className="bg-white shadow-sm py-3 px-4">
+    <Navbar expand="lg" className="sticky-top bg-white shadow-sm py-3 px-4">
       <Container fluid>
         {/* Logo */}
         <Navbar.Brand href="/" className="d-flex align-items-center gap-2">
