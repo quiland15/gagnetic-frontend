@@ -4,7 +4,7 @@ import Footer from '../components/Footer.jsx'
 
 export default function Layout ({children}){
 	return(
-          <div>
+          <div style={{ width: '100%', minHeight: '100vh' }}>
             <Header />
             <main>
               {children}
