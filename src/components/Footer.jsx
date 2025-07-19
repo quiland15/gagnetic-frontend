@@ -8,14 +8,14 @@ export default function Footer() {
       <Container>
         <Row className="gy-4">
           {/* Column 1 - Logo & Desc */}
-          <Col md={4}>
+          <Col md={4} className="text-start">
             <div className="d-flex align-items-center gap-2 mb-3">
               <div className="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center" style={{ width: '35px', height: '35px' }}>
                 GT
               </div>
               <h5 className="mb-0 text-primary fw-bold">GadgetTech</h5>
             </div>
-            <p className="text-muted align-items-start">
+            <p className="text-muted">
               Your premium destination for smartphone and gadget accessories. Quality products delivered worldwide with fast shipping and excellent support.
             </p>
             <div className="d-flex gap-3 mt-3 fs-5 text-muted">
