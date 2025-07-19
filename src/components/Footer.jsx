@@ -15,7 +15,7 @@ export default function Footer() {
               </div>
               <h5 className="mb-0 text-primary fw-bold">GadgetTech</h5>
             </div>
-            <p className="text-muted align-items-left">
+            <p className="text-muted align-items-start">
               Your premium destination for smartphone and gadget accessories. Quality products delivered worldwide with fast shipping and excellent support.
             </p>
             <div className="d-flex gap-3 mt-3 fs-5 text-muted">
