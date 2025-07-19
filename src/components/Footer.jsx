@@ -27,7 +27,7 @@ export default function Footer() {
           </Col>
 
           {/* Column 2 - Quick Links */}
-          <Col md={2}>
+          <Col md={2} className="text-start">
             <h6 className="fw-bold mb-3">Quick Links</h6>
             <ul className="list-unstyled text-muted">
               <li><a href="#" className="text-decoration-none text-muted">Shop All Products</a></li>
@@ -39,7 +39,7 @@ export default function Footer() {
           </Col>
 
           {/* Column 3 - Categories */}
-          <Col md={2}>
+          <Col md={2} className="text-start">
             <h6 className="fw-bold mb-3">Categories</h6>
             <ul className="list-unstyled text-muted">
               <li><a href="#" className="text-decoration-none text-muted">Phone Cases</a></li>
@@ -51,7 +51,7 @@ export default function Footer() {
           </Col>
 
           {/* Column 4 - Stay Connected */}
-          <Col md={4}>
+          <Col md={4} className="text-start">
             <h6 className="fw-bold mb-3">Stay Connected</h6>
             <p className="text-muted">Subscribe to get updates on new products and exclusive offers.</p>
             <div className="d-flex mb-3">
