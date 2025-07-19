@@ -53,16 +53,18 @@ export default function Footer() {
           {/* Column 4 - Stay Connected */}
           <Col md={4} className="text-start">
             <h6 className="fw-bold mb-3">Stay Connected</h6>
-            <p className="text-muted">Subscribe to get updates on new products and exclusive offers.</p>
-            <div className="d-flex mb-3">
-              <Form.Control type="email" placeholder="Your email" className="me-2 rounded-pill" />
-              <Button className="rounded-pill px-4" style={{ background: 'linear-gradient(90deg, #007bff, #00d4ff)', border: 'none' }}>
-                Subscribe
-              </Button>
+            <div className="text-muted d-flex align-items-center mb-1">
+              <FiMail className="me-2" />
+              <a href="mailto:support@quiland.site" className="text-muted text-decoration-none">support@quiland.site</a>
             </div>
-            <div className="text-muted d-flex align-items-center mb-1"><FiMail className="me-2" /> support@gadgettech.com</div>
-            <div className="text-muted d-flex align-items-center mb-1"><FiPhone className="me-2" /> +1 (555) 123-4567</div>
-            <div className="text-muted d-flex align-items-center"><FiMapPin className="me-2" /> San Francisco, CA</div>
+              
+            <div className="text-muted d-flex align-items-center mb-1">
+              <FiPhone className="me-2" />
+              <a href="https://wa.me/6282192987104" target="_blank" rel="noopener noreferrer" className="text-muted text-decoration-none">
+                +62 821-9298-7104
+              </a>
+            </div>
+            <div className="text-muted d-flex align-items-center"><FiMapPin className="me-2" /> Indonesia, North Sulawesi.</div>
           </Col>
         </Row>
 
@@ -70,7 +72,7 @@ export default function Footer() {
 
         <Row className="justify-content-between">
           <Col md={6} className="text-muted small">
-            © 2025 GadgetTech. All rights reserved.
+            © 2025 Gagnetic. All rights reserved.
           </Col>
           <Col md={6} className="d-flex justify-content-md-end gap-4 text-muted small">
             <a href="#" className="text-decoration-none text-muted">Privacy Policy</a>
