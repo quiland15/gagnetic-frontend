@@ -9,7 +9,7 @@ export default function Footer() {
         <Row className="gy-4">
           {/* Column 1 - Logo & Desc */}
           <Col md={4}>
-            <div className="d-flex align-items-center gap-2 mb-3">
+            <div className="d-flex align-items-left gap-2 mb-3">
               <div className="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center" style={{ width: '35px', height: '35px' }}>
                 GT
               </div>
