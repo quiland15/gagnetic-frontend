@@ -23,11 +23,6 @@ export default function Header () {
           <input type="text" placeholder="Search products..." />
         </div>
 
-        <div className="cart-icon">
-          <FiShoppingCart />
-          <span className="cart-count">3</span>
-        </div>
-
         <button className="login-btn">Login</button>
       </div>
     </header>
