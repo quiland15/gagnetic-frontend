@@ -32,7 +32,7 @@
 import { Container, Nav, Navbar, Form, FormControl, Button, Badge } from 'react-bootstrap';
 import { FiSearch } from 'react-icons/fi';
 import { FaShoppingCart } from 'react-icons/fa';
-import './Header.css';
+import '../assets/css/home/header.css';
 
 export default function Header() {
   return (
