@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Column 1 - Logo & Desc */}
           <Col md={4} className="text-start">
             <div className="d-flex align-items-center gap-2 mb-3">
-              <img src={Logo} alt="Logo Quiland" className="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center" style={{ width: '35px', height: '35px' }} />
+              <img src={Logo} alt="Logo Quiland" className="d-flex align-items-center justify-content-center" style={{ width: '35px', height: '35px' }} />
               <h5 className="mb-0 text-primary fw-bold">Quiland</h5>
             </div>
             <p className="text-muted">
