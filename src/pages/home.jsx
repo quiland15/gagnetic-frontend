@@ -8,7 +8,7 @@ export default function App() {
     <>
       <main>
       {/* Hero Banner */}
-      <section className="bg-dark text-white py-5" style={{
+      <section className="bg-dark text-white py-5 justify-content-center" style={{
         backgroundImage: `url(${Banner})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
