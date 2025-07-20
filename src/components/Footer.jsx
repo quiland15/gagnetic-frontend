@@ -1,6 +1,10 @@
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi';
+import Logo from '../assets/img/Logo1.png'
+import Shop from '../pages/shop.jsx'
+import About from '../pages/about.jsx'
+import Contact from '../pages/contact.jsx'
 
 export default function Footer() {
   return (
@@ -10,10 +14,8 @@ export default function Footer() {
           {/* Column 1 - Logo & Desc */}
           <Col md={4} className="text-start">
             <div className="d-flex align-items-center gap-2 mb-3">
-              <div className="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center" style={{ width: '35px', height: '35px' }}>
-                GT
-              </div>
-              <h5 className="mb-0 text-primary fw-bold">GadgetTech</h5>
+              <img src={Logo} alt="Logo Quiland" className="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center" style={{ width: '35px', height: '35px' }} />
+              <h5 className="mb-0 text-primary fw-bold">Quiland</h5>
             </div>
             <p className="text-muted">
               Your premium destination for smartphone and gadget accessories. Quality products delivered worldwide with fast shipping and excellent support.
@@ -30,9 +32,9 @@ export default function Footer() {
           <Col md={2} className="text-start">
             <h6 className="fw-bold mb-3">Quick Links</h6>
             <ul className="list-unstyled text-muted">
-              <li><a href="#" className="text-decoration-none text-muted">Shop All Products</a></li>
-              <li><a href="#" className="text-decoration-none text-muted">About Us</a></li>
-              <li><a href="#" className="text-decoration-none text-muted">Contact Support</a></li>
+              <li><a href={Shop} className="text-decoration-none text-muted">Shop All Products</a></li>
+              <li><a href={About} className="text-decoration-none text-muted">About Us</a></li>
+              <li><a href={Contact} className="text-decoration-none text-muted">Contact Support</a></li>
               <li><a href="#" className="text-decoration-none text-muted">Shipping Info</a></li>
               <li><a href="#" className="text-decoration-none text-muted">Returns & Refunds</a></li>
             </ul>
