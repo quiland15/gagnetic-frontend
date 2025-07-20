@@ -2,9 +2,11 @@ import { useState } from 'react'
 import reactLogo from '../assets/img/react.svg'
 import viteLogo from '/vite.svg'
 import '../assets/css/home/App.css'
+import useTitle from '../components/useTitle'
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(0)
+  useTitle('Dashboard | Quiland')
 
   return (
     <>
@@ -31,5 +33,3 @@ function App() {
     </>
   )
 }
-
-export default App
