@@ -21,21 +21,9 @@ export default function App() {
           textAlign: 'left'
         }}
       >
-        {/* Overlay */}
-        <div
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100%',
-            height: '100%',
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', // semi-transparent black
-            zIndex: 1
-          }}
-        />
-        <div className="container" style={{position : 'relative'}}>
-          <h1 className="display-4 fw-bold">Premium Gadget Accessories</h1>
-          <p className="lead">Discover the latest accessories for your smartphone, tablet, and more.</p>
+        <div className="container">
+          <h1 className="display-4 fw-bold" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}>Premium Gadget Accessories</h1>
+          <p className="lead" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}>Discover the latest accessories for your smartphone, tablet, and more.</p>
           <button className="btn btn-primary btn-lg mt-3">Shop Now</button>
         </div>
       </section>
