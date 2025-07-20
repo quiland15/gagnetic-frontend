@@ -12,7 +12,7 @@ export default function App() {
         backgroundImage: `url(${Banner})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        minHeight: '600px'
+        minHeight: '700px'
       }}>
         <div className="container text-center py-5">
           <h1 className="display-4 fw-bold">Premium Gadget Accessories</h1>
