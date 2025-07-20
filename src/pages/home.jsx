@@ -23,7 +23,7 @@ export default function App() {
       >
         <div className="container">
           <h1 className="display-4 fw-bold" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}>Premium Tech <br />Accessories</h1>
-          <p className="lead" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}>Discover our curated collection of premium smartphone and gadget accessories. Quality, style, and innovation in every product.</p>
+          <p className="lead" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.7)' }}>Discover our curated collection of premium smartphone and gadget <br /> accessories. Quality, style, and innovation in every product.</p>
           <button className="btn btn-primary btn-lg mt-3">Shop Now</button>
         </div>
       </section>
