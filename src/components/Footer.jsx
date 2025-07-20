@@ -2,9 +2,6 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi';
 import Logo from '../assets/img/Logo1.png'
-import Shop from '../pages/shop.jsx'
-import About from '../pages/about.jsx'
-import Contact from '../pages/contact.jsx'
 
 export default function Footer() {
   return (
@@ -32,9 +29,9 @@ export default function Footer() {
           <Col md={2} className="text-start">
             <h6 className="fw-bold mb-3">Quick Links</h6>
             <ul className="list-unstyled text-muted">
-              <li><a href={Shop} className="text-decoration-none text-muted">Shop All Products</a></li>
-              <li><a href={About} className="text-decoration-none text-muted">About Us</a></li>
-              <li><a href={Contact} className="text-decoration-none text-muted">Contact Support</a></li>
+              <li><a href="#" className="text-decoration-none text-muted">Shop All Products</a></li>
+              <li><a href="#" className="text-decoration-none text-muted">About Us</a></li>
+              <li><a href="#" className="text-decoration-none text-muted">Contact Support</a></li>
               <li><a href="#" className="text-decoration-none text-muted">Shipping Info</a></li>
               <li><a href="#" className="text-decoration-none text-muted">Returns & Refunds</a></li>
             </ul>
