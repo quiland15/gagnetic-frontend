@@ -70,8 +70,8 @@ export default function Footer() {
         <hr className="my-4" />
 
         <Row className="justify-content-between">
-          <Col md={6} className="text-muted small">
-            © 2025 Gagnetic. All rights reserved.
+          <Col md={6} className="text-muted small text-start">
+            © 2025 Quiland. All rights reserved.
           </Col>
           <Col md={6} className="d-flex justify-content-md-end gap-4 text-muted small">
             <a href="#" className="text-decoration-none text-muted">Privacy Policy</a>
