@@ -10,8 +10,8 @@ export default function Header() {
       <Container fluid>
         {/* Logo */}
         <Navbar.Brand href="/" className="d-flex align-items-center gap-2">
-          <img src={Logo} alt="Logo GT" className="rounded-circle bg-primary text-white fw-bold d-flex align-items-center justify-content-center" style={{ width: '45px', height: '45px' }} />
-          <span className="fw-bold text-primary fs-5">GAGNETIC</span>
+          <img src={Logo} alt="Logo GT" className="text-white fw-bold d-flex align-items-center" style={{ width: '45px', height: '45px' }} />
+          <span className="fw-bold text-primary fs-5">Quiland</span>
         </Navbar.Brand>
 
         {/* Navigation */}
