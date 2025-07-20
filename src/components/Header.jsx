@@ -10,7 +10,7 @@ export default function Header() {
       <Container fluid>
         {/* Logo */}
         <Navbar.Brand href="/" className="d-flex align-items-center gap-2">
-          <img src={Logo} alt="Logo GT" className="bg-prime d-flex align-items-center" style={{ width: '60px', height: '60px',objectFit: 'contain' }} />
+          <img src={Logo} alt="Logo GT" className="bg-dark d-flex align-items-center" style={{ width: '60px', height: '60px',objectFit: 'contain' }} />
           <span className="fw-bold text-primary fs-5">Quiland</span>
         </Navbar.Brand>
 
