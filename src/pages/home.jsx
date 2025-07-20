@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import useTitle from '../components/useTitle'
-
+import Banner from '../assets/img/hero-banner.jpg'
 export default function App() {
   useTitle('Dashboard | Quiland')
 
@@ -9,7 +9,7 @@ export default function App() {
       <main>
       {/* Hero Banner */}
       <section className="bg-dark text-white py-5" style={{
-        backgroundImage: 'url("/assets/img/hero-banner.jpg")',
+        backgroundImage: {Banner},
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '60vh'
