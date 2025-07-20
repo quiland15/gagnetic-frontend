@@ -21,7 +21,7 @@ export default function App() {
           textAlign: 'left'
         }}
       >
-        <div className="container" style={{ maxWidth: '600px', paddingLeft: '50px' }}>
+        <div className="container">
           <h1 className="display-4 fw-bold">Premium Gadget Accessories</h1>
           <p className="lead">Discover the latest accessories for your smartphone, tablet, and more.</p>
           <button className="btn btn-primary btn-lg mt-3">Shop Now</button>
