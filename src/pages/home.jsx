@@ -17,11 +17,11 @@ export default function App() {
           minHeight: '650px',
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center',
-          textAlign: 'center'
+          justifyContent: 'flex-start',
+          textAlign: 'left'
         }}
       >
-        <div className="container">
+        <div className="container" style={{ maxWidth: '600px', paddingLeft: '50px' }}>
           <h1 className="display-4 fw-bold">Premium Gadget Accessories</h1>
           <p className="lead">Discover the latest accessories for your smartphone, tablet, and more.</p>
           <button className="btn btn-primary btn-lg mt-3">Shop Now</button>
