@@ -8,14 +8,21 @@ export default function App() {
     <>
       <main>
       {/* Hero Banner */}
-      <section className="bg-dark text-white py-5" style={{
-        backgroundImage: `url(${Banner})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        minHeight: '650px'
-      }}>
-        <div className="container align-items-center text-center py-5">
-          <h1 className="display-4 fw-bold align-items-center">Premium Gadget Accessories</h1>
+      <section
+        className="bg-dark text-white py-5"
+        style={{
+          backgroundImage: `url(${Banner})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          minHeight: '650px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          textAlign: 'center'
+        }}
+      >
+        <div className="container">
+          <h1 className="display-4 fw-bold">Premium Gadget Accessories</h1>
           <p className="lead">Discover the latest accessories for your smartphone, tablet, and more.</p>
           <button className="btn btn-primary btn-lg mt-3">Shop Now</button>
         </div>
