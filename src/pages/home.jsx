@@ -34,19 +34,19 @@ export default function App() {
           <h2 className="mb-4 fw-semibold text-center">Popular Categories</h2>
           <div className="row text-center g-4">
             <div className="col-md-3">
-              <img src="/assets/headphones.jpg" alt="Headphones" className="img-fluid rounded" />
+              <i className="bi bi-headphones fs-1 text-primary"></i>
               <h5 className="mt-2">Headphones</h5>
             </div>
             <div className="col-md-3">
-              <img src="/assets/chargers.jpg" alt="Chargers" className="img-fluid rounded" />
+              <i className="bi bi-battery-charging fs-1 text-success"></i>
               <h5 className="mt-2">Chargers</h5>
             </div>
             <div className="col-md-3">
-              <img src="/assets/cases.jpg" alt="Cases" className="img-fluid rounded" />
+              <i className="bi bi-phone fs-1 text-warning"></i>
               <h5 className="mt-2">Phone Cases</h5>
             </div>
             <div className="col-md-3">
-              <img src="/assets/cables.jpg" alt="Cables" className="img-fluid rounded" />
+              <i className="bi bi-usb-plug fs-1 text-danger"></i>
               <h5 className="mt-2">Data Cables</h5>
             </div>
           </div>
